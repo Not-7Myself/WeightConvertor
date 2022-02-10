@@ -1,0 +1,81 @@
+* {
+    font-family: Comic Sans MS;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(49, 51, 54);
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+label {
+    display: block;
+    padding: 2px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+}
+#weight {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 4px;
+}
+#weight:focus{
+    border:none;
+    outline: 0;
+}
+select {
+    border: none;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    width: 120px;
+    height: 50px;
+    border-radius: 2px;
+}
+select:focus {
+    color: #f4f4f4;
+    border: none;
+    outline: none;
+}
+#select2 {
+    margin: 10px 0;
+    padding: 5px;
+}
+#endValue {
+    border: solid 0px;
+    padding: 2px;
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+button {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    color: rgb(63, 63, 65);
+    margin: 15px;
+    top: 55px;
+    transition: 0.2s ease;
+}
+button:hover {
+    color: #fff;
+    background-color: rgb(144, 236, 152);
+    cursor: pointer
+}
