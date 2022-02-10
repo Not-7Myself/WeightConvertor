@@ -64,7 +64,7 @@ select:focus {
     margin: 10px;
     border-radius: 5px;
     display: inline-block;
-    color: #000;
+    color: rgb(39, 39, 39);
     font-size: 30px;
 }
 button {
